@@ -9,6 +9,8 @@ public:
 
 	}
 	virtual ~CImage() = default;
+
+	bool isOpen()const;
 private:
 	int m_nWidth;
 	int m_nHeight;
