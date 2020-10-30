@@ -12,5 +12,6 @@ public:
 private:
 	int m_nWidth;
 	int m_nHeight;
+	bool bRGB;
 };
 
