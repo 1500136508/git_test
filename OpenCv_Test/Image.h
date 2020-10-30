@@ -11,6 +11,7 @@ public:
 	virtual ~CImage() = default;
 
 	bool isOpen()const;
+	bool isConnect()const;
 private:
 	int m_nWidth;
 	int m_nHeight;
